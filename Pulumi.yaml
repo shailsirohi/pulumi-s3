@@ -1,0 +1,10 @@
+name: pulumi-s3
+runtime:
+  name: go
+description: Pulumi project to learn with go
+template:
+  config:
+    aws:region:
+      description: AWS region to deploy init
+      default: us-west-2
+
